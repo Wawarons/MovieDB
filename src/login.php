@@ -24,7 +24,7 @@ if(isset($_POST) && isset($_POST["password"])){
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="../Images/icon.png" type="image/png">
     <link rel="stylesheet" href="../style/login.css"></link>
-    <title>Connection</title>
+    <title>Connexion</title>
 </head>
 <body>
     <h1>MovieDB</h1>
