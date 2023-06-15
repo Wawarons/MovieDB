@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Dangrek:regular);
+body {
+    margin: 0;
+    background-image: url("../Images/home_background.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#container h3 {
+    text-align: center;
+}
+
+#profile-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-container img {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 145px;
+    margin: 10px auto;
+}
+
+#logout {
+    background: transparent;
+    border: solid 2px #8300f4;
+    backdrop-filter: blur(5px);
+    margin: 10px auto;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.movie-rated {
+    background-color: #0000004d;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.movie-rated:hover {
+    transform: scale(1.01);
+}
+
+.movie-rated p {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.notes {
+    position: relative;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 0 5px;
+}
+
+.notes p {
+    width: 100%;
+    color: #000;
+    text-align: right;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+}
+
+table td {
+    text-align: right;
+}
+
+table td, table th {
+    padding: 5px;
+}
+
+.rateCategorie {
+    font-family: 'Dangrek';
+    text-shadow: 0px 0px 2px #fff;
+    text-align: left;
+}
